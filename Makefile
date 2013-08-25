@@ -8,5 +8,5 @@ clean:
 
 voodoo: all
 	-sudo rmmod ./block2mtd.ko
-	sudo insmod ./block2mtd.ko block2mtd=/dev/sr0,16384,2048
+	sudo insmod ./block2mtd.ko block2mtd=/dev/sr0,65536,2048
 
